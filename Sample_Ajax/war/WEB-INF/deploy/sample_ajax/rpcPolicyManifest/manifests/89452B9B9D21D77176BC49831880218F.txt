@@ -1,0 +1,2 @@
+serviceClass: com.hvr.client.GreetingService
+path: F9D5FBE7A46E9031DC4B868AE13F2EA6.gwt.rpc

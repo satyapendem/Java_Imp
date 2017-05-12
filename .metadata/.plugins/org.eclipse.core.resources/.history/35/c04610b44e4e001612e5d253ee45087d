@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="home.css">
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body background="bgimg4.jpg">
+
+	<div id="loginModalContainer">
+		<h2>
+			<em>Click here to Share your Thoughts</em>
+		</h2>
+
+		<!-- Trigger/Open The Modal -->
+		<button id="loginBtn">Login</button>
+
+		<!-- The Modal -->
+		<div id="loginModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="close">×</span>
+					<h2>Login</h2>
+				</div>
+				<div class="modal-body">
+					<form method="post" action="/login" class="login_form">
+						<table class="login_table">
+							<tr>
+								<td>EMAIL:</td>
+								<td><input type="text" name="username" /></td>
+							</tr>
+							<tr>
+								<td>PASSWORD:</td>
+								<td><input type="password" name="password" /></td>
+							</tr>
+							<tr>
+								<td><input type="submit" value="Login" width="50"
+									height="25" class="login" style="background-color: #5cb85c" /></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="signUpModalContainer">
+		<!-- Trigger/Open The Modal -->
+		<button id="signUpBtn">SignUp</button>
+
+		<!-- The Modal -->
+		<div id="signUpModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="close">×</span>
+					<h2>SignUp</h2>
+				</div>
+				<div class="modal-body">
+					<form method="post" action="/signup" class="signup_form">
+						<table class="signup_table">
+							<tr>
+								<td>UserName</td>
+								<td><input type="text" name="userName" /></td>
+							</tr>
+							<tr>
+								<td>Password</td>
+								<td><input type="password" name="password" /></td>
+							</tr>
+							<tr>
+								<td>Confirm Password</td>
+								<td><input type="password" name="confirmPassword" /></td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td><input type="text" name="email" /></td>
+							</tr>
+							<tr>
+								<td><input type="submit" value="SignUp" width="50"
+									height="25" class="signup" style="background-color: #5cb85c" /></td>
+							</tr>
+						</table>
+					</form>
+
+				</div>
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// Get the modal
+		var loginModal = document.getElementById('loginModal');
+		var signUpModal = document.getElementById('signUpModal');
+		// Get the button that opens the modal
+		var loginBtn = document.getElementById("loginBtn");
+		var signUpBtn = document.getElementById("signUpBtn");
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+		// When the user clicks the button, open the modal
+		loginBtn.onclick = function() {
+			loginModal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+			loginModal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == loginModal) {
+				loginModal.style.display = "none";
+			}
+		}
+
+		signUpBtn.onclick = function() {
+			signUpModal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the moda
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == signUpModal) {
+				signUpModal.style.display = "none";
+			}
+		}
+	</script>
+</body>
+</html>

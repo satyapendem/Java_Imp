@@ -1,0 +1,3 @@
+# Module sample_ajax
+# RPC service class, partial path of RPC policy file
+com.hvr.client.GreetingService, F9D5FBE7A46E9031DC4B868AE13F2EA6.gwt.rpc

@@ -1,0 +1,418 @@
+@CHARSET "ISO-8859-1";
+
+.homeContainer {
+	margin-left: 45%;
+}
+
+.formContainer {
+	margin-left: 44%;
+	margin-top: 10%;
+}
+
+#login {
+	background-color: #2BCA91;
+	height: 35px;
+	width: 80px;
+	border: 1px solid #2BCA91;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+}
+
+#login:HOVER {
+	background-color: white;
+	color: #2BCA91;
+	cursor: pointer;
+}
+
+#signup {
+	background-color: #2BCA91;
+	height: 35px;
+	width: 80px;
+	border: 1px solid #2BCA91;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+}
+
+#signup:HOVER {
+	background-color: white;
+	color: #2BCA91;
+	cursor: pointer;
+}
+
+input {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #2BCA91;
+}
+
+.signup {
+	background-color: #2BCA91;
+	height: 35px;
+	border: 1px solid #2BCA91;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	width: 190px;
+}
+.signup:HOVER {
+	background-color: white;
+	color: #2BCA91;
+	cursor: pointer;
+}
+.login:HOVER {
+	background-color: white;
+	color: #2BCA91;
+	cursor: pointer;
+}
+.login {
+	background-color: #2BCA91;
+	height: 35px;
+	border: 1px solid #2BCA91;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	width: 190px;
+}
+
+#save {
+	background-color: #2BCA91;
+	height: 30px;
+	border: 1px solid #2BCA91;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+}
+
+#updateTimeZone {
+	background-color: #2BCA91;
+    height: 35px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 14%;
+    margin-left: 46%;
+    width: 52%;
+}
+
+#updateTimeZone:HOVER
+{
+	background-color: white;
+	color: #2BCA91;
+	/* cursor:pointer; */
+}
+
+#updateTimeZoneId {
+	background-color: #2BCA91;
+    height: 30px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: -2%;
+    margin-left: 74%;
+    width: 150px;
+    margin-bottom: -1%;
+}
+
+#updateTimeZoneId:HOVER
+{
+	background-color: white;
+	color: #2BCA91;
+}
+
+#editProfile {
+	background-color: #2BCA91;
+    height: 35px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: -35%;
+    margin-left: 46%;
+}
+
+#editProfile:HOVER {
+	background-color: white;
+	color: #2BCA91;
+}
+
+#logout {
+	background-color: #2BCA91;
+    height: 35px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 78%;
+    margin-top: 1.6%;
+}
+
+#logout:HOVER {
+	background-color: white;
+	color: #2BCA91;
+}
+
+#messageToUser {
+	position: absolute;
+	margin-left: 45%;
+	z-index: -1;
+	background: #fffed5;
+	color: black;
+	border-radius: 5px;
+	border: 1px solid #cfcd59;
+	padding: 5px;
+	display: none;
+}
+
+#askQuestion {
+	background-color: #2BCA91;
+    height: 35px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 46%;
+    margin-top: -23%;
+    width: 52%;
+}
+
+#askQuestion:HOVER {
+	background-color: white;
+	color: #2BCA91;
+}
+
+span {
+	color: red;
+}
+
+#questionId {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #2BCA91;
+	margin-left: 25%;
+	width: 50%;
+	resize: none;
+}
+
+#postQuestion {
+	background-color: #2BCA91;
+	height: 35px;
+	border: 1px solid #2BCA91;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	margin-left: 60%;
+    width: 7%;
+	margin-top: -2.5%;
+}
+
+#postQuestion:HOVER {
+	background-color: white;
+	color: #2BCA91;
+}
+
+.questionDisplayContainer {
+	/* padding: 10px;
+	border-style: groove;
+	margin-left: 25%;
+	width: 50%;
+	margin-left: 25%;
+	border-radius: 5px;
+	background-color: white; */
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.answerBtn:HOVER {
+	background-color: white;
+	color: #2BCA91;
+}
+
+.answerBtn {
+	background-color: #2BCA91;
+	height: 35px;
+	border: 1px solid #2BCA91;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	margin-left: 83%;
+	width: 17%;
+	margin-top: 1%;
+}
+
+.answerClass {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #2BCA91;
+	margin-left: 5%;
+	width: 90%;
+	resize: none;
+	overflow: scroll;
+	overflow-x: hidden;
+	margin-top: 5%;
+}
+
+#saveAnswer {
+	background-color: #2BCA91;
+    height: 35px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 64%;
+    width: 15%;
+    margin-top: -3.5%;
+}
+
+#saveAnswer:HOVER
+{
+	background-color: white;
+	color: #2BCA91;
+}
+
+#cancelQuestion
+{
+	background-color: #2BCA91;
+    height: 35px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 68%;
+    width: 7%;
+    margin-top: 1%;
+}
+#cancelQuestion:HOVER
+{
+	background-color: white;
+	color: #2BCA91;
+}
+#cancelAnswer:HOVER
+{
+	background-color: white;
+	color: #2BCA91;
+}
+#cancelAnswer
+{
+	background-color: #2BCA91;
+    height: 35px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 80%;
+    width: 15%;
+    margin-top: 1%;
+}
+.listOfQuestionsContainer
+{
+	padding: 10px;
+	border:1px solid black;
+	width: 75%;
+    margin-left: 15%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+.answer
+{
+	padding: 10px;
+	margin-top: 1%;
+	border:1px solid black;
+	width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.timezonesList
+{
+	height:200px;
+	overflow-y: scroll;
+	width:100%;
+	margin-top: 10px;
+}
+
+.timezonesList ul{
+	list-style: none;
+	color:rgba(153, 153, 153, 0.84);
+}
+
+.timezonesList ul>li>p:HOVER
+{
+	color:black;
+	cursor:pointer;
+}
+
+#timeZoneToBeUpdated{
+	height: 30px;
+    width: 89%;
+    border-radius: 4px;
+    border: 1px solid #2BCA91;
+    margin-left: 30px;
+    margin-top: -23px;
+}
+
+select
+{
+	margin-left: 15%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+#displayTimeZoneList
+{
+	background-color: #2BCA91;
+    height: 30px;
+    border: 1px solid #2BCA91;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: -2%;
+    margin-left: 0%;
+    width: 161px;
+    margin-bottom: 5%;
+}
+
+#displayTimeZoneList:HOVER
+{
+	background-color: white;
+	color: #2BCA91;
+}
+
+.footerSpan
+{
+	margin-top: -20px;
+	color: black;
+	float:left;
+}
+#timeStandard
+{
+	margin-left: 10px;
+}
+#buttonsDiv
+{
+	position: absolute;
+    width: 25%;
+    margin-left: 74%;
+    margin-top: -7%;
+    height: 33%;
+}
